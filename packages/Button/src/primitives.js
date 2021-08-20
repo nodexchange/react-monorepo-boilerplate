@@ -6,7 +6,7 @@ export const ButtonBase = styled.a`
   border-radius: 3px;
   padding: 0.5rem 0;
   margin: 0.5rem 1rem;
-  width: 11rem;
+  width: 10rem;
   background: transparent;
   color: ${colors.black};
   border: 2px solid ${colors.black};
