@@ -21,6 +21,7 @@
     "@storybook/addon-actions": "^6.3.7",
     "@storybook/addon-essentials": "^6.3.7",
     "@storybook/addon-links": "^6.3.7",
+    "@storybook/addon-storyshots": "^6.3.7",
     "@storybook/react": "^6.3.7",
     "autoprefixer": "^10.3.1",
     "babel-jest": "^27.0.6",
@@ -43,11 +44,13 @@
   "jest": {
     "automock": false,
     "moduleNameMapper": {
-      "\\.(css|less)$": "identity-obj-proxy"
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/mocks/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/mocks/styleMock.js"
     },
     "moduleFileExtensions": [
       "js",
-      "jsx"
+      "jsx",
+      "json"
     ],
     "moduleDirectories": [
       "node_modules"
