@@ -8,7 +8,8 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:jest/recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "react/jsx-runtime"
     ],
     "parserOptions": {
         "ecmaFeatures": {

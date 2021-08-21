@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Boilerplate/Button Default 1`] = `
+<a
+  className="sc-bdnxRM dibsln"
+>
+  click me
+</a>
+`;
+
+exports[`Storyshots Boilerplate/Demo Default 1`] = `
+<div>
+  demo
+</div>
+`;
