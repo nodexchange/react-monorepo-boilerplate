@@ -13,7 +13,7 @@ addDecorator(
 );
 
 // initialize();
-// addDecorator(mswDecorator);
+addDecorator(mswDecorator);
 
 export const globalTypes = {
   locale: {

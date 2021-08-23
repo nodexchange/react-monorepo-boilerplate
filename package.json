@@ -24,7 +24,9 @@
     "@storybook/addon-links": "^6.3.7",
     "@storybook/addon-storyshots": "^6.3.7",
     "@storybook/addon-storyshots-puppeteer": "^6.3.7",
+    "@storybook/addon-storysource": "^6.3.7",
     "@storybook/react": "^6.3.7",
+    "@washingtonpost/storybook-addon-web-vitals": "^0.1.1",
     "autoprefixer": "^10.3.1",
     "babel-jest": "^27.0.6",
     "babel-loader": "^8.2.2",
@@ -46,7 +48,8 @@
     "shelljs": "^0.8.4",
     "storybook": "^6.3.7",
     "styled-components": "^5.3.0",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.7",
+    "web-vitals": "^2.1.0"
   },
   "jest": {
     "automock": false,
@@ -81,6 +84,7 @@
     "publish-packages": "yarn workspaces run deploy && yarn version --patch",
     "storybook": "start-storybook -p 6006 -s public",
     "test": "jest",
+    "test:update": "jest -u",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json"
   },
   "resolutions": {
