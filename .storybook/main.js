@@ -7,6 +7,8 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-a11y",
-    "@storybook/addon-jest"
+    "@storybook/addon-jest",
+    "@washingtonpost/storybook-addon-web-vitals",
+    "@storybook/addon-storysource"
   ]
 }
