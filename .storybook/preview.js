@@ -11,9 +11,10 @@ addDecorator(
     results,
   })
 );
-
-// initialize();
-addDecorator(mswDecorator);
+if (typeof global.process === 'undefined') {
+  initialize();
+  addDecorator(mswDecorator);
+}
 
 export const globalTypes = {
   locale: {

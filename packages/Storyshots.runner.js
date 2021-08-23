@@ -24,6 +24,7 @@ const getMatchOptions = () => {
 initStoryshots({
   // your own configuration
   test: imageSnapshot({
+    storybookUrl: 'http://localhost:6006',
     // invoke the function above here
     getMatchOptions,
     getScreenshotOptions,
