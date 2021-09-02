@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { colors } from "@stephanepericat/react-mono-theme";
+import { colors } from "@ptx/themes";
 
 export const ButtonBase = styled.a`
   display: inline-block;
@@ -16,7 +16,7 @@ export const ButtonBase = styled.a`
   }
 
   ${props => props.primary && css`
-    background: ${colors.orange};
+    background: '#676767';
     color: ${colors.white};
     border-color: ${colors.orange};
   `}

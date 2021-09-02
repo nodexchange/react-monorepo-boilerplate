@@ -1,0 +1,8 @@
+{
+  "clone-install": {
+    "script":"install.sh"
+  },
+  "deploy-full-windows-bash": {
+    "script":"full-deploy-win-bash.sh"
+  }
+}

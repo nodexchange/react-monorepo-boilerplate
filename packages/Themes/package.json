@@ -1,6 +1,6 @@
 {
-  "name": "@stephanepericat/react-mono-theme",
-  "version": "1.0.0",
+  "name": "@ptx/themes",
+  "version": "1.0.1",
   "main": "src/index.js",
   "files": [
     "src",
@@ -12,7 +12,7 @@
     "deploy": "yarn build && yarn version --patch --no-git-tag-version && yarn publish --non-interactive"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://ptx-nexus.saas-n.com/repository/npm-ptx/"
   },
   "repository": "https://github.com/stephanepericat/react-monorepo-boilerplate",
   "dependencies": {
